@@ -1,0 +1,635 @@
+@font-face /*importation des polices du site*/
+{
+  font-family: 'light';
+  src: url('font/Walkway_SemiBold.ttf');
+}
+
+@font-face 
+{
+  font-family: 'divercity';
+  src: url('font/earthorbiterhalfital.ttf');
+}
+
+@font-face
+{
+  font-family: 'bolt';
+  src: url('font/Walkway_Black.ttf');
+}
+
+p
+{
+  font-size: 15px; 
+}
+
+h1
+{
+  font-family: 'divercity';
+  font-size: 75px;
+  text-align: center;
+  color: white;
+}
+
+h2
+{
+  font-family: 'bolt';
+  font-size:38px;
+}
+
+h3
+{
+  font-family: 'light';
+  font-size: 30px;
+}
+
+h4
+{
+  font-family:'light';
+  font-size: 23px;
+  text-align: center;
+}
+
+.logodomisep
+{
+  left: 5px;
+}
+.logodivercity
+{
+  opacity: 0.9;
+  position: relative;
+}
+
+/* Header */
+
+#header_item_left
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#header_item_left
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo img
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    max-width: 70px;
+    max-height: 70px;
+    margin-left: 50px;
+}
+
+
+
+
+
+.itemleft
+{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  max-width: 300px;
+  max-height:150px;
+}
+
+h1.gauche
+{
+  font-family: 'divercity';
+  font-size: 1.5em;
+  margin top: 0px;
+  margin: 0 0 0 10px;
+}
+
+h3.hautgauche
+{
+
+  font-size: .5em;
+  font-family: 'bolt';
+  font-weight: normal;
+  margin: 0 0 0 10px;
+}
+
+img.logodomisep
+{
+  margin-top: -50px;
+}
+
+.headinsc.logodomisep
+{
+  left: 5px;
+}
+
+.headinsc.logodivercity
+{
+  right: 5px;
+}
+
+fieldset.inscription
+{
+  background: linear-gradient(#E9EEFF,#C0CBEF);
+  max-width:600px;
+  padding:16px; 
+  border-radius: 15px;
+  box-shadow: 0px 0px 0px ;
+  border-spacing: 200px;
+  opacity: 80%;
+}
+
+fieldset.connexion
+{
+  background-color:#E9EEFF;
+  max-width:600px;
+  padding:16px; 
+  border-radius: 15px;
+  box-shadow: 0px 0px 0px ;
+  border-spacing: 200px;
+  opacity: 80%;
+}
+
+fieldset.modif_profil
+{
+  background-color:#E9EEFF;
+}
+
+fieldset
+{
+  border-radius: 15px;
+  margin-top: 60px;
+}
+fieldset.typepiece
+{
+  background: linear-gradient(#E9EEFF,#C0CBEF);  
+}
+fieldset.conn1
+{
+  border-radius: 20px;
+  background: linear-gradient(#E9EEFF,#C0CBEF);
+  border-width: 3px white;
+}
+fieldset.field_conso /*Cadre contenant le formulaire, on utilise une couleur plus claire, et on définit la taille maximum d'un cadre*/
+{
+  background: linear-gradient(#E9EEFF,#C0CBEF);
+  text-align: center;
+  max-width: 800px;
+  padding: 16px; 
+  border-radius: 15px;
+  box-shadow: 0px 2px 0px black;
+  border-spacing: 0px;
+  opacity: 80%;
+
+}
+.field_conso
+{
+  display: block;
+}
+
+fieldset.field_profil
+{
+    background: linear-gradient(#E9EEFF,#C0CBEF);
+    text-align: center;
+    box-shadow: 0px 2px 0px black;
+    position: relative;
+}
+
+.bouton_conso
+{
+  display: block;
+  text-align: center;
+  border-spacing: 50px;
+  width: 500px;
+
+
+}
+
+.bouton_modif
+{
+  font-size: 18px;
+  background: linear-gradient(deepskyblue, blue);
+  border-radius: 50px;
+  border-spacing: 20px;
+  text-shadow: 0 2px 1 black;
+  color: white;
+}
+
+h1.header_item_left
+{
+
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+h2.header_item_left
+{
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+
+
+
+/*Les menus 4,5,6,7,8 et 9 sont les immages des différents capeurs présents dans la maison, on les positionne et stylise selon la demande du client*/
+#menu4
+{
+  background: linear-gradient(deepskyblue, #C0CBEF);
+  border: 2px solid white;
+  border-radius:10px;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+#menu5
+{
+  background: linear-gradient(deepskyblue, #C0CBEF);
+  border: 2px solid white;
+  border-radius:10px;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+#menu6
+{
+  background: linear-gradient(deepskyblue, #C0CBEF);
+  border: 2px solid white;
+  border-radius:10px;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+#menu7
+{
+  background: linear-gradient(deepskyblue, #C0CBEF);
+  border: 2px solid white;
+  border-radius:10px;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  width: 150px;
+  height: 150px;  
+}
+
+#menu8
+{
+  background: linear-gradient(deepskyblue, #C0CBEF);
+  border: 2px solid white;
+  border-radius:10px;
+  position: relative;
+  font-size: 20px;
+  color: white;
+  width: 150px;
+  height: 150px;  
+}
+
+#menu9
+{
+  background: linear-gradient( deepskyblue, #C0CBEF);
+  border: 2px solid white;
+  border-radius:10px;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  width: 150px;
+  height: 150px;  
+}
+
+a#menu4 #menu5 #menu6 #menu7 #menu8 #menu9:hover
+{
+  text-decoration: none;
+}
+.container
+{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+
+
+.item
+{
+  font-size:2em;
+  margin:5px;
+  padding:5px;
+  border:solid 0px black;
+  text-align:center;  
+}
+
+.header{
+  
+}
+
+.flexbody
+{
+  flex:1; /*cet élément va occuper toute la place disponible sur l'axe vertial*/
+  display:flex; /*les éléments contenus dans celui-ci s'afficheront en ligne*/
+  flex-direction:row; /*valeur par défaut*/
+}
+
+.menuLeft
+{
+  width: 20%;
+  font-size: 28px;
+  background: linear-gradient( deepskyblue, #C0CBEF);
+  border-radius: 20px;
+
+}
+
+.content
+{  
+  flex:1; /*cet élément va occuper tout l'espace disponible sur l'axe horizontal*/
+}
+
+
+ul.bouton_conso li 
+{
+  display: inline-block;
+  max-width: 30%;
+  
+
+}
+
+ul.bouton_conso li a
+{
+  display: inline-block;
+  max-width: 100%;
+
+}
+
+
+a
+{
+  text-decoration: none;
+  color: white;
+}
+
+a.hov
+{
+  color: blue;
+}
+a:hover.hov
+{
+  text-decoration: underline;
+  text-shadow: 0 1px 0 black;
+}
+
+ul.bouton_conso a:visited  
+{
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+}
+
+
+
+/* pour le menu vertical bleu*/
+ul.menu_vert
+{
+
+    left: 0%;
+    display: table;
+    width: 250px;
+    margin: 5px auto;
+    max-height: 300px;
+    padding: 0;
+    background: linear-gradient( deepskyblue, blue);
+  
+    /* ce qui suit c'est pour que tous les deriers navigateurs puissent le lire
+    background: -webkit-linear-gradient(deepskyblue, dodgerblue);
+    background: -moz-linear-gradient(deepskyblue, dodgerblue);
+    background: -ms-linear-gradient(deepskyblue, dodgerblue);
+    background: -o-linear-gradient(deepskyblue, dodgerblue);
+    background: linear-gradient(deepskyblue, dodgerblue);
+  /* ceci est pour arrondir les angles pour que ça fasse joli t'as vu*/
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+                0 3px 5px rgba(0, 0, 0, .2),
+                0 5px 10px rgba(0, 0, 0, .2),
+                0 20px 20px rgba(0, 0, 0, .15);
+
+
+/* pour passer de vertical a horizontal */
+
+}
+ul.menu_vert li
+{
+    display:inline;
+}
+/* la on veut un truc plus propre donc ça eneleve le fait que ce soit souligné et centre bien le texte pour l'esthetique */
+ul.menu_vert li a
+{
+    display: block;
+    text-align: center;
+    color: rgba(255, 255, 255, .7); 
+    text-decoration: none;
+    padding: 8px 8px 17px 8px;
+    /* voir un peu plus loins c'est pour quon puisse lorsqu'on passe la souris sur la navigation que ça s'ecarte légerment*/
+    
+    position: relative;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .4); /* effet d'un text incrusté */ 
+
+}
+/* en faisant ce qui suit,ben quand on clique sur la navigation ça fonce la case c'est joli)*/
+ul.menu_vert li a:active
+{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+    box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+
+}
+
+/* la mtn on veut quand quand on passe la souris, le bloque devient plus clair pour facilité la navigation) */
+ul.menu_vert li a:hover, 
+ul.menu_vert li a:focus
+{
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .3) inset, 
+                0 -1px 0 hsl(210, 100%, 42%) inset, 
+                0 -2px 0 hsl(210, 100%, 48%) inset, 
+                0 -3px 0 hsl(210, 100%, 54%) inset, 
+                0 -4px 0 hsl(210, 100%, 60%) inset, 
+                0 -5px 0 hsl(210, 100%, 70%) inset;
+                padding: 8px 25px 17px 25px; /* ça modifie les marges mais on le voit pas :p */
+                transition: all .3s 0s;
+}
+
+/* ajout d'une petite lumière mais pour ce faire il faut marquer ul li a{
+    ...
+    position: relative;
+}*/ 
+
+ul.menu_vert li a::before
+{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 9px;
+    margin-left: -90px;
+    width: 180px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .5);
+}
+
+
+/* lumière allume toi !!!! */
+ul.menu_vert li a:hover::before,
+ul.menu_vert li a:focus::before
+{
+    background: white;
+    box-shadow: 0 0 2px white, 
+                0 -1px 0 rgba(0, 0, 0, .4);
+}
+
+
+/* menu horizontal ! */
+
+
+
+.menuh
+{
+  position: absolute;
+
+}
+
+
+
+
+ul.menu_horizontal
+{
+    position: relative;
+
+    display: table;
+    max-width: 900px;
+    height: 90px; 
+    background: linear-gradient( deepskyblue, blue);
+  
+    /* ce qui suit c'est pour que tous les deriers navigateurs puissent le lire
+    background: -webkit-linear-gradient(deepskyblue, dodgerblue);
+    background: -moz-linear-gradient(deepskyblue, dodgerblue);
+    background: -ms-linear-gradient(deepskyblue, dodgerblue);
+    background: -o-linear-gradient(deepskyblue, dodgerblue);
+    background: linear-gradient(deepskyblue, dodgerblue);
+  /* ceci est pour arrondir les angles pour que ça fasse joli t'as vu*/
+    border-radius: 35px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+                0 3px 5px rgba(0, 0, 0, .2),
+                0 5px 10px rgba(0, 0, 0, .2),
+                0 20px 20px rgba(0, 0, 0, .15);
+
+
+/* pour passer de vertical a horizontal */
+
+}
+ul.menu_horizontal li
+{
+    display: table-cell;
+}
+/* la on veut un truc plus propre donc ça eneleve le fait que ce soit souligné et centre bien le texte pour l'esthetique */
+ul.menu_horizontal li a
+{
+    display: block;
+    text-align: center;
+    color: rgba(255, 255, 255, .7); 
+    text-decoration: none;
+    padding: 20px 14px 23px 20px;/* c'est la hauteur entre le tour et l'ecriture/*
+    /* voir un peu plus loins c'est pour quon puisse lorsqu'on passe la souris sur la navigation que ça s'ecarte légerment*/
+    transition: padding .3s;
+    transition: all .3s .1s; /* pour retarder la transition à l'etat normal*/ 
+    position: relative;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .4); /* effet d'un text incrusté */ 
+
+}
+/* en faisant ce qui suit,ben quand on clique sur la navigation ça fonce la case c'est joli)*/
+ul.menu_horizontal li a:active
+{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+    box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+}
+
+/* la mtn on veut quand quand on passe la souris, le bloque devient plus clair pour facilité la navigation) */
+ul.menu_horizontal li a:hover, 
+ul.menu_horizontal li a:focus
+{
+    background: rgba(255,255,255,.2);
+    border-radius: 35px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 
+                0 -1px 0 hsl(210, 100%, 42%) inset, 
+                0 -2px 0 hsl(210, 100%, 48%) inset, 
+                0 -3px 0 hsl(210, 100%, 54%) inset, 
+                0 -4px 0 hsl(210, 100%, 60%) inset, 
+                0 -5px 0 hsl(210, 100%, 70%) inset;
+                padding: 30px 25px 30px 25px; /* ça modifie les marges mais on le voit pas :p:p:p; */
+                transition: all .3s 0s;
+}
+
+/* ajout d'une petite lumière mais pour ce faire il faut marquer ul li a{
+    ...
+    position: relative;
+}*/ 
+
+ul.menu_horizontal li a::before
+{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 9px;
+    margin-left: -2px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .5);
+}
+
+
+/* lumière allume toi !!!! */
+ul.menu_horizontal li a:hover::before,
+ul.menu_horizontal li a:focus::before
+{
+    background: white;
+    box-shadow: 0 0 2px white, 
+                0 -1px 0 rgba(0, 0, 0, .4);
+}
+
+/* deux tableaux de droite :*/
+fieldset.droitehaut
+{
+  margin-top: 170px;
+  max-width: 400px;
+  height: 300px;
+  background: linear-gradient(#E9EEFF,#C0CBEF);
+
+}
+
+fieldset.droitebas
+{
+  max-width: 400px;
+  background: linear-gradient(#E9EEFF,#C0CBEF);
+  height: 310px;
+}
+
+
+.consomm
+{
+    margin-right: 50px;
+}
+
+
+/*margin codepen*/
+body
+{
+  font-family:'light';
+  margin:0;
+  background-color: #C0CBEF;
+}

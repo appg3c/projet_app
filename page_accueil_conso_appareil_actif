@@ -1,0 +1,91 @@
+
+ <?php 
+session_start();
+?>
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<html>
+<title>Page d'acceuil</title>
+<link rel="stylesheet" type="text/css" href="cssflexpa.css">
+<body>
+
+<div class="container">
+
+
+    <div class="header item">
+    <div id="header_item_left">
+    <div class="itemleft">
+    <div id="logo">
+    <img src="img/logo.png" class="logodivercity" alt="divercity" width="100"><br>
+      <h1 class="gauche">Divercity</h1>
+    </div>
+    <h3 class="hautgauche"> Solution de </h3><br><img src="img/domisep.png" class="logodomisep" alt="domisep" width="100"></h3>
+    </div>
+    </div>
+    <div class="menuh">
+      <?php
+    include("menu_horizontal.php")
+    ?>
+      </div>
+
+    </div>
+
+   
+    <div class="flexbody">
+
+      
+
+
+    <div class="menuLeft item">
+
+      
+
+    <?php
+    include("menu_verticale.php")
+    ?>
+
+      <div align="center">
+        <br>
+                <a href="FAQ.php">FAQ</a> <br>
+                <a href="aide.php">Aide</a> <br>
+                <a href="nous_contacter.php">Nous contacter</a> <br>
+        </div>
+
+
+
+
+    
+    
+
+      </div>
+
+      <div class="content item">
+      <fieldset class="field_conso">
+        <?php 
+        include("page_accueil_profil.php");
+
+        ?>
+      </fieldset>
+    
+</div>
+
+
+</body>
+
+
+
+</html>
+
+    <div align=center>
+    <footer>
+        <br>
+                <a href="FAQ.html">FAQ</a> <br>
+                <a href="aide.html">Aide</a> <br>
+                <a href="contact.html">Nous contacter</a> <br>
+        
+    </footer> 
+    </div>  
+
+</body>
+</html>
