@@ -24,7 +24,7 @@ while ($donnees = $reponse->fetch())
 
     
 
-    Dans votre <strong><?php echo $donnees['nom_maison']; ?></strong> vous avez programmé une température de <strong><?php echo $donnees['valeur']; ?> </strong>degrés<br />
+    Vous avez programmé une température de <strong><?php echo $donnees['valeur']; ?> </strong>degrés<br />
 
     Ce programme fonctionnera du<strong> <?php echo $donnees['jour_debut']; ?> </strong><strong><?php echo $donnees['mois_debut']; ?></strong> au <strong><?php echo $donnees['jour_fin']; ?></strong><strong> <?php echo $donnees['mois_fin']; ?></strong><br />
 

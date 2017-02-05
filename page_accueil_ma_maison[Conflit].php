@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 
 session_start();
 $host= "localhost";
@@ -11,16 +11,33 @@ if ($con->connect_error)
 {
     die("connecting failed: ".$con->connect_error);
 }
+<?php
+
+
 $mail= $_SESSION['mail'];
+$id_utilisateur=$_SESSION['id_utilisateur'];
+$id=$id_utilisateur;
 
 
-$sql_adresse = "SELECT adresse FROM maison INNER JOIN utilisateur ON maison.id_maison=utilisateur.id_maison  "; 
-//echo adresse
-$result_adresse = $con->query($sql_adresse)or die("cant be select");
-$result_print = mysqli_fetch_array($result_adresse);
-$padresse = $result_print[0];
+
+$sql_adresse="SELECT adresse FROM maison WHERE id= '$id'";
+$result_adresse = $con->query($sql_adresse) or die('erreur');
+$result_print_adresse = mysqli_fetch_array($result_adresse);
+$adresse = $result_print_adresse[0];
+
+$sql_code_postal="SELECT code_postal FROM maison WHERE id= '$id'";
+$result_code_postal = $con->query($sql_code_postal) or die('erreur');
+$result_print_code_postal = mysqli_fetch_array($result_code_postal);
+$code_postal = $result_print_code_postal[0];
+
+$sql_ville="SELECT ville FROM maison WHERE id= '$id'";
+$result_ville = $con->query($sql_ville) or die('erreur');
+$result_print_ville = mysqli_fetch_array($result_ville);
+$ville = $result_print_ville[0];
+
 $_SESSION['adresse']=$adresse;
-
+$_SESSION['ville']=$ville;
+$_SESSION['code_postal']=$code_postal;
 
 
 

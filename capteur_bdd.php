@@ -12,6 +12,7 @@ $SESSIONNOM2 = $_POST['nompiece2'];
 $SESSIONNOM3 = $_POST['nompiece3'];
 $SESSIONNOM4 = $_POST['nompiece4'];
 
+
 $SESSIONFEN1=$_POST['nbrefen1'];
 $SESSIONFEN2=$_POST['nbrefen2'];
 $SESSIONFEN3=$_POST['nbrefen3'];

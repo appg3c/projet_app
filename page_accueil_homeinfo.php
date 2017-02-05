@@ -13,7 +13,7 @@
             </td>
 
             <td>
-            <input type="varchar" placeholder="Maison principale" name="maison1" required>
+            <input type="varchar" placeholder="Maison principale" name="maison1" value="" required>
             </td>
           </tr>
           </br>
@@ -23,7 +23,7 @@
             </td>
 
             <td>
-            <input type="varchar" placeholder="1 rue du bout" name="adresse" required>
+            <input type="varchar" placeholder="1 rue du bout" name="adresse" value="" required>
             </td>
           </tr>
           </br>
@@ -33,7 +33,7 @@
             </td>
 
             <td>
-            <input type="int" placeholder="75000" name="code_postal" required>
+            <input type="int" placeholder="75000" name="code_postal" value="" required>
             </td>
           </tr>
           </br>
@@ -43,7 +43,7 @@
             </td>
 
             <td>
-            <input type="varchar" placeholder="Paris" name="ville" required>
+            <input type="varchar" placeholder="Paris" name="ville" value="" required>
             </td>
           </tr>
           </br>

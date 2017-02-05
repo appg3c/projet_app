@@ -15,8 +15,12 @@
 </a>
           </li>
 
-          <li id="menu6"><a href="#"><img src="img/lamp.png" width="50px" alt="ampoule" ><br>Lumières <br><br><br>
-          <font color ="red"> OFF </font>
+          <li id="menu6"><a href="#"><img src="img/lamp.png" width="50px" alt="ampoule" ><br>Lumières <br><br><br><br>
+           <?php  
+     include ("lum1.php");
+     
+         // <font color ="red"> OFF </font>
+     ?>
 </a>
           </li>
 
@@ -30,8 +34,11 @@
 </a>
           </li>
 
-            <li id="menu9"><a href="#"><img src="img/fenetre.png" width="50px" alt="fenetre" ><br>Fenêtres<br><br><br>
-          Fermées
+            <li id="menu9"><a href="#"><img src="img/fenetre.png" width="50px" alt="fenetre" ><br>Fenêtres<br><br><br><br>
+          <?php
+     
+     include ("fen1.php");    
+     ?>
 </a>
 
 

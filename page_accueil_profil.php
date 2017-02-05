@@ -34,6 +34,7 @@ $result_id= $con->query($sql_id)or die("error:".$sql_id.'<br>'.$con->error);
 $result_id_in_array= mysqli_fetch_array($result_id);
 $id= $result_id_in_array['0'];
 
+
 if (isset($_POST['submit'])) 
 {
   $entre_nom1= $_POST['entre_nom'];
@@ -146,6 +147,6 @@ session_start();
   </form>
   <script>
 function myFunction() {
-    alert("je veux modifier mon profil");
+    alert("Modifications effectuées");
 }
 </script>

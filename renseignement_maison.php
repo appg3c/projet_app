@@ -6,7 +6,7 @@ $adresse=$_POST['adresse'];
 $ville=$_POST['ville'];
 $cp=(int)$_POST['code_postal'];
 
-$req1="INSERT INTO maison(nom_maison,adresse,ville, code_postal) VALUES ('$maison','$adresse','$ville','$cp')";
+$req1="INSERT INTO maison(adresse,ville,code_postal) VALUES ('$adresse','$ville','$cp')";
 
 $result1= $con->query($req1) or die('cant be insert');
 

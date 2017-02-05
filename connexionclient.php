@@ -26,7 +26,7 @@
             <legend><h2>Connexion</h2><h1>Divercity</h1></legend> 
                <br />
                   <fieldset class="conn1">
-                     <legend><h3 color='green'>Informations enregistrées ! Veuillez vous connectez </h3></legend>
+                     <legend><h3 color='green'>Informations enregistrées ! Veuillez vous connecter </h3></legend>
                      <form method="POST" action="php_verif_conn_to_bdd.php">
                         <table>
                         <p></p>

@@ -10,7 +10,7 @@
 <div align="center"><strong>Nous Contacter</strong></div><br/>
 <fieldset >
 
-<legend align="center"><strong>Par email</strong></legend>
+<legend align="center"><strong>Par Messagerie interne</strong></legend>
 <table width="600" align="center"  >
 <form action="envoi_nous_contacter.php" method="post"  name="formulaire">
 
@@ -53,6 +53,12 @@
 <legend align="center"><strong>Par téléphone</strong></legend>
 <div align="center">
  Maintenance :<br /> 06 21 26 14 27 
+</div>
+</fieldset>
+<fieldset>
+<legend align="center"><strong>Par Email</strong></legend>
+<div align="center">
+ Maintenance :<br /> mainteance_divercity@gmail.com 
 </div>
 </fieldset>
 </body>

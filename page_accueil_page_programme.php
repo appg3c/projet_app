@@ -14,21 +14,7 @@
         		
 
         		<table>
-        			<tr>
-        				<td>
-        					<label for="maison">Choisissez la maison: </label>
-        				</td>
-
-        				<td>
-        					<select name="choix_maison">
-        					<option value="Maison_principale">Maison principale</option>
-							<option value="Maison secondaire">Maison secondaire</option>
-							<option value="maison vac1">Maison de vacances 1</option>
-							<option value="maison vac2">Maison de vacances 2</option>
-							<option value="maison vac3">Maison de vacances 3</option>
-							</select>
-						</td>
-					</tr>
+        			
 
 					<tr>
 						<td>
@@ -177,7 +163,7 @@
       <legend><h2>Vos programmes</h2></legend>
       <form method="post" action="cible_page_programme.php">
       <td align="center">
-              <input class="bouton_modif" type="submit" name="effacer" value="Effacer tout vos programme">
+              <input class="bouton_modif" type="submit" name="effacer" value="Effacer tout vos programmes">
       </td>
       <?php include_once('affichage_programme.php'); ?>
       </fieldset>
